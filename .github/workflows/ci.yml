@@ -21,6 +21,6 @@ jobs:
             pushd $target
             cmake -S . -B build
             cmake --build build
-            popd ../..
+            popd
           done
 
