@@ -1,7 +1,7 @@
 # プロジェクト名
 project(01_hello_world)
 
-# CMakeのバージョン。特に理由は無いがUbuntu20.04のデフォルトのバージョンとした
+# CMakeのバージョン。もっと古くても良いが、Ubuntu20.04のデフォルトのバージョンとした
 cmake_minimum_required(VERSION 3.16.3)
 
 # 生成する実行ファイル名とソースファイル名を指定

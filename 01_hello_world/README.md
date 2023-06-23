@@ -52,7 +52,7 @@ cmake -S . -B build
 
 # ビルド実行
 # --buildにはBuild Treeのディレクトリを与える
-# build以下に生成物がある
+# build以下に生成物が置かれる
 cmake --build build
 ```
 なお、古いcmakeでは以下のようにビルドする
