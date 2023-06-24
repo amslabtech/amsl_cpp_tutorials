@@ -17,7 +17,7 @@ jobs:
         run: sudo apt install g++ make cmake
       - name: Build
         run: |
-          for target in `find * -mindepth 0 -maxdepth 0 -type d`; do
+          for target in `find * -mindepth 0 -maxdepth 0 -regex "\[0-9]+.*" -type d`; do
             pushd $target
             cmake -S . -B build
             cmake --build build
