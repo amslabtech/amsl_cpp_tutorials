@@ -1,0 +1,7 @@
+.vscode
+*/build
+*.out
+*.o
+*.a
+*.so
+main
