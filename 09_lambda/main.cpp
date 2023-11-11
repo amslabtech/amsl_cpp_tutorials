@@ -58,7 +58,7 @@ int main(int argc, char **argv)
     auto func = [&str]() {
       str = "Lambda2";
       std::cout << "Hello, " << str << "!" << std::endl;
-      str = "Lambda2";
+      str = "Lambda3";
     };
     std::cout << "str is " << str << std::endl;
     func();
