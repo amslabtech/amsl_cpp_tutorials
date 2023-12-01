@@ -2,7 +2,7 @@
 
 ## ソースファイルが複数ある場合のビルド(g++)
 ```
-g++ main.cpp lib.cpp -o main
+g++ main.cpp lib.cpp -I../common -o main
 ```
 ソースファイル名を並べれば良い
 
