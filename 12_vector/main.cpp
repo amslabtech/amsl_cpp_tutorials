@@ -76,5 +76,19 @@ int main(int argc, char **argv)
   v.clear();
   std::cout << "vの要素数: " << v.size() << std::endl;
   std::cout << "v.empty(): " << (v.empty() ? "true" : "false") << std::endl;
+
+  // 2行3列の2次元配列
+  std::vector<std::vector<int>> v2{
+      {1, 2, 3},
+      {4, 5, 6},
+  };
+  for (auto &e1 : v2)
+  {
+    for (auto &e2 : e1)
+    {
+      std::cout << e2 << " ";
+    }
+    std::cout << std::endl;
+  }
   return 0;
 }
