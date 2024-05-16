@@ -25,6 +25,7 @@ int main(int argc, char **argv)
   }
   std::cout << "vの容量: " << v.capacity() << std::endl;
   // 容量の確保(要素数は変わらない)
+  // reserve()の挙動について参考: https://cpprefjp.github.io/reference/vector/vector/reserve.html
   v.reserve(10);
   std::cout << "vの要素数: " << v.size() << std::endl;
   std::cout << "vの容量: " << v.capacity() << std::endl;
