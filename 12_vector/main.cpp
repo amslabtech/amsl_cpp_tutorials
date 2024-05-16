@@ -23,9 +23,11 @@ int main(int argc, char **argv)
   {
     std::cout << "範囲外アクセスによる例外: " << e.what() << std::endl;
   }
+  std::cout << "vの容量: " << v.capacity() << std::endl;
   // 容量の確保(要素数は変わらない)
   v.reserve(10);
   std::cout << "vの要素数: " << v.size() << std::endl;
+  std::cout << "vの容量: " << v.capacity() << std::endl;
   // 要素数変更
   // 3番目以降の要素は初期化される
   v.resize(10);
